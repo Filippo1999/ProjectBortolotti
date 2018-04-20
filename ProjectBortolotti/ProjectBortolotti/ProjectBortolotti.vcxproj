@@ -117,9 +117,13 @@
   <ItemGroup>
     <ClCompile Include="Contact.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Number.cpp" />
+    <ClCompile Include="whatsappNumber.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Contact.h" />
+    <ClInclude Include="Number.h" />
+    <ClInclude Include="whatsappNumber.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
