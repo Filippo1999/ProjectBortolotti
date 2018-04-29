@@ -24,7 +24,7 @@
     <ClCompile Include="Number.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="whatsappNumber.cpp">
+    <ClCompile Include="jobNumber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,7 +35,7 @@
     <ClInclude Include="Number.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="whatsappNumber.h">
+    <ClInclude Include="jobNumber.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
