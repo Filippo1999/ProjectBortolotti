@@ -8,9 +8,13 @@ protected:
 
 public:
 	jobNumber();
-	jobNumber(string name, string surname, string pNumber);
+	jobNumber(string name, string surname, int age, string pNumber);
 	void setPNumber(string pNumber);
 	string getPNumber();
+
+	void contactType() override {
+		cout << "Job phone number" << endl;
+	}
 
 };
 

@@ -24,6 +24,11 @@ void Contact::setSurname(string surname)
 	_surname = surname;
 }
 
+void Contact::setAge(int age)
+{
+	_age = age;
+}
+
 string Contact::getName()
 {
 	return _name;
@@ -32,4 +37,9 @@ string Contact::getName()
 string Contact::getSurname()
 {
 	return _surname;
+}
+
+int Contact::getAge() 
+{
+	return _age;
 }
