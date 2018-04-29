@@ -21,6 +21,6 @@ public:
 	string getSurname();
 	int getAge();
 
-	virtual void contactType() = 0;
+	virtual void numberType() = 0;
 };
 

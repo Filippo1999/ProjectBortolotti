@@ -12,7 +12,7 @@ public:
 	Number(string name, string surname, int age, string pNumber);
 	void setPNumber(string pNumber);
 	string getPNumber();
-	void contactType() override {
+	void numberType() override {
 		cout << "Private phone number" << endl;
 	}
 };

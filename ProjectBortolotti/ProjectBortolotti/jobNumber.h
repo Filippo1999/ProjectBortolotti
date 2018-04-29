@@ -12,7 +12,7 @@ public:
 	void setPNumber(string pNumber);
 	string getPNumber();
 
-	void contactType() override {
+	void numberType() override {
 		cout << "Job phone number" << endl;
 	}
 
